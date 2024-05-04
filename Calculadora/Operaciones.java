@@ -12,6 +12,8 @@ public class Operaciones {
 
     public int multiplica2Numeros (int num1, int num2){return num1*num2;}
 
+    public int divide2Numeros (int num1, int num2){return num1/num2;}
+
     public Operaciones(){
     }
 }

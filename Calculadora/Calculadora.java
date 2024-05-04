@@ -29,6 +29,8 @@ public class Calculadora {
             case "-": respuesta = operacion.resta2Numeros(num1,num2);
                 break;
             case "*": respuesta = operacion.multiplica2Numeros(num1,num2);
+                break;
+            case "/" : respuesta = operacion.divide2Numeros(num1,num2);
             default:
                 System.out.print("Revise bien los datos ingresados porfavor :)");
         }
